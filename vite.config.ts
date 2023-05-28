@@ -21,5 +21,9 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  }
+  },
+  base: "/vue3-vite/"
+  // build: {
+  //   outDir: "docs"
+  // }
 })
