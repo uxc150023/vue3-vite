@@ -24,6 +24,20 @@ export default defineConfig({
   },
   base: "/vue3-vite/",
   build: {
-    outDir: "docs"
+    outDir: "docs",
+    // 在这里配置打包时的rollup配置
+    rollupOptions:{
+      output: {
+        // manualChunks:(id) => {
+        //   // console.log("id-------------",id);
+        //   if (id.includes('node_modules/echarts')) {
+        //     return 'chunk-echarts';
+        //   }
+        //   if (id.includes('node_modules/element-plus')) {
+        //     return 'chunk-element-plus';
+        //   }
+        // }
+      }
+    }
   }
 })

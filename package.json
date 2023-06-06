@@ -12,6 +12,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
+    "echarts": "^5.4.2",
+    "element-plus": "^2.3.5",
     "pinia": "^2.0.36",
     "vite-plugin-getbuildtime": "^1.0.9",
     "vue": "^3.3.2",

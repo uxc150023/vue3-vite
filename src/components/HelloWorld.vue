@@ -8,6 +8,7 @@ defineProps<{
   <div class="greetings">
     <img src="../assets/test.jpeg" alt="">
     <img src="../assets/test2.png" alt="">
+    <el-button>111111</el-button>
   </div>
 </template>
 
